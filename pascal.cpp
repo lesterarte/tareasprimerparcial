@@ -14,20 +14,20 @@ int printbinomio(int);
 int main(int argc, char*argv[]){
 	int numero,nomio; 
 	int op; 
-	cout<<"Ingrese el numero del ejercicio que desea:\n"
+	cout<<"Ingrese el Numero del ejercicio que desea:\n"
 		<<"1. Triangulo de pascal. \n2. Binomio de newton."
 		<<endl; 
 		cin>>op;
 	if(op==1){
 		 
-		cout<<"Ingrese el numero limite: ";
+		cout<<"Ingrese el Numero limite: ";
 		cin>>numero; 
 		imprimir(numero);
 		cout<<endl; 
 	}
 	if (op==2){
 
-		cout<<"Ingrese el lumero limite para el Binomio: "; 
+		cout<<"Ingrese el Numero limite para el Binomio: "; 
 		cin>>nomio; 
 		cout<<endl; 
 		printbinomio(nomio); 
